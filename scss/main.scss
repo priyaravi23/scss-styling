@@ -2,7 +2,9 @@
 @import "built-in-functions/build-in-functions";
 @import "variables/variables";
 @import "variables/vary";
-@import "iterate-with-@for/iterate-with-@for";
+@import "iterate-with-each/iterate-with-each";
+@import "iterate-with-for/iterate-with-for";
 @import "extends/extends";
+@import "function-directive/function-directive";
 @import "mixins/mixins.scss";
 body { margin: 0; }
