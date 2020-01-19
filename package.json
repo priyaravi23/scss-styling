@@ -1,0 +1,13 @@
+{
+  "name": "SCSS-STYLING",
+  "version": "0.0.1",
+  "description": "Transpile SCSS to CSS using node-sass",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "scripts": {
+    "start": "node-sass -o css scss --output-style expanded"
+  },
+  "author": "Priya Ravi",
+  "license": "UNLICENSED"
+}

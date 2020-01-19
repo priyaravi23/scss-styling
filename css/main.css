@@ -1,0 +1,515 @@
+.got {
+  padding: 1rem 2rem;
+  transition: transform .8s ease-in-out;
+}
+
+.got-container:hover .got {
+  transform: rotate(180deg);
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+
+.got-container {
+  background-color: #dbbebe;
+}
+
+.got::before {
+  display: block;
+  content: url("../../images/got.png");
+}
+
+.got img {
+  transition: transform .8s ease-in-out;
+}
+
+.got img:hover {
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+}
+
+.got .description {
+  color: darkred;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.got .description .header {
+  font-size: 2rem;
+}
+
+.got .description-link {
+  text-decoration: none;
+}
+
+.got .description-link::after {
+  content: url("../../images/got-logo.png");
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.old-light-dark {
+  background-image: linear-gradient(#db6e57, #a83b24, #150705);
+}
+
+.wolverine {
+  text-align: center;
+  background-image: linear-gradient(rgba(168, 59, 36, 0.5), #a83b24, #914a3b);
+}
+
+.wolverine:hover {
+  background-image: linear-gradient(rgba(36, 145, 168, 0.5), #2491a8, #3b8291);
+}
+
+.wolverine:hover .wolverine-text {
+  color: rgba(233, 206, 9, 0.8);
+}
+
+.wolverine-text {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+  color: #be6c1b;
+}
+
+.wolverine img {
+  margin-top: 3rem;
+  border-radius: 50%;
+}
+
+.women-of-the-marvel-universe {
+  content: "women-of-the-marvel-universe";
+}
+
+.women-of-the-marvel-universe-text {
+  color: #989898;
+}
+
+.women-of-the-marvel-universe-cape {
+  background-color: #8465D9;
+}
+
+img {
+  border: 1px dotted green;
+}
+
+.elektra {
+  color: blue;
+  border: 1px solid purple;
+  font-size: 36px;
+}
+
+.fancy {
+  color: green;
+}
+
+.col-1 {
+  width: 100%;
+}
+
+.col-2 {
+  width: 50%;
+}
+
+.col-3 {
+  width: 33.33333%;
+}
+
+.col-4 {
+  width: 25%;
+}
+
+.col-5 {
+  width: 20%;
+}
+
+.col-6 {
+  width: 16.66667%;
+}
+
+.col-7 {
+  width: 14.28571%;
+}
+
+.col-8 {
+  width: 12.5%;
+}
+
+.col-9 {
+  width: 11.11111%;
+}
+
+.col-10 {
+  width: 10%;
+}
+
+[class~="mt-0.5"] {
+  margin-top: 0.5rem;
+}
+
+[class~="mt-1"] {
+  margin-top: 1rem;
+}
+
+[class~="mt-1.5"] {
+  margin-top: 1.5rem;
+}
+
+[class~="mt-2"] {
+  margin-top: 2rem;
+}
+
+[class~="mt-2.5"] {
+  margin-top: 2.5rem;
+}
+
+[class~="mt-3"] {
+  margin-top: 3rem;
+}
+
+[class~="mt-3.5"] {
+  margin-top: 3.5rem;
+}
+
+[class~="mt-4"] {
+  margin-top: 4rem;
+}
+
+[class~="mt-4.5"] {
+  margin-top: 4.5rem;
+}
+
+[class~="mt-5"] {
+  margin-top: 5rem;
+}
+
+.passion1 {
+  color: #BA0000;
+}
+
+.empathy1 {
+  color: rebeccapurple;
+}
+
+.cool-kid1 {
+  color: blue;
+}
+
+.passion2 {
+  color: #d90000;
+}
+
+.empathy2 {
+  color: #753bb0;
+}
+
+.cool-kid2 {
+  color: #1f1fff;
+}
+
+.passion3 {
+  color: #e80000;
+}
+
+.empathy3 {
+  color: #7d3ebb;
+}
+
+.cool-kid3 {
+  color: #2e2eff;
+}
+
+.passion4 {
+  color: #f70000;
+}
+
+.empathy4 {
+  color: #8547c2;
+}
+
+.cool-kid4 {
+  color: #3d3dff;
+}
+
+.passion5 {
+  color: #ff0808;
+}
+
+.empathy5 {
+  color: #8c53c6;
+}
+
+.cool-kid5 {
+  color: #4d4dff;
+}
+
+.passion6 {
+  color: #ff1717;
+}
+
+.empathy6 {
+  color: #945ec9;
+}
+
+.cool-kid6 {
+  color: #5c5cff;
+}
+
+.passion7 {
+  color: #ff2626;
+}
+
+.empathy7 {
+  color: #9c6acd;
+}
+
+.cool-kid7 {
+  color: #6b6bff;
+}
+
+.passion8 {
+  color: #ff3535;
+}
+
+.empathy8 {
+  color: #a375d1;
+}
+
+.cool-kid8 {
+  color: #7a7aff;
+}
+
+.passion9 {
+  color: #ff4545;
+}
+
+.empathy9 {
+  color: #ab81d5;
+}
+
+.cool-kid9 {
+  color: #8a8aff;
+}
+
+.passion10 {
+  color: #ff5454;
+}
+
+.empathy10 {
+  color: #b38cd9;
+}
+
+.cool-kid10 {
+  color: #9999ff;
+}
+
+.captain-america .stuff, .medusa .stuff, .she-hulk .stuff {
+  background: linear-gradient(red, white, blue);
+}
+
+.doc-ock, .cheetah, .enchantress {
+  background: darkred;
+}
+
+.doc-ock {
+  height: 20px;
+  width: 20px;
+  border: 1px solid green;
+}
+
+.cheetah {
+  height: 20px;
+  width: 20px;
+}
+
+.enchantress {
+  height: 20px;
+  width: 20px;
+}
+
+.captain-america {
+  height: 20px;
+  width: 20px;
+}
+
+.medusa {
+  height: 20px;
+  width: 20px;
+}
+
+.she-hulk {
+  height: 20px;
+  width: 20px;
+}
+
+@media screen and (min-width: 800px) {
+  .buddy {
+    color: purple;
+  }
+}
+
+.character {
+  text-align: center;
+  width: 17rem;
+  display: inline-block;
+  margin: 0.5rem;
+}
+
+.character p {
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.character img {
+  margin-top: 1rem;
+  border-radius: 25%;
+}
+
+.wolverine {
+  background-image: linear-gradient(#db6e57, #a83b24, #150705);
+  border: 5px solid brown;
+}
+
+.wolverine:hover {
+  background-image: linear-gradient(#57c4db, #2491a8, #051215);
+}
+
+.wolverine:hover .wolverine-text {
+  color: rgba(233, 159, 161, 0.8);
+}
+
+.wolverine-text {
+  color: #be5c4e;
+}
+
+.wolverine img {
+  transition: margin 1s, border-radius 1s, border 1s, transform 1s;
+}
+
+.wolverine img:hover {
+  margin-top: 5rem;
+  border-radius: 50%;
+  border: 10px solid green;
+  transform: rotate3d(10, 0, 0, 360deg);
+}
+
+.rogue {
+  background-image: linear-gradient(#30f3a2, #0ab36d, #010a06);
+  border: 5px solid green;
+}
+
+.rogue:hover {
+  background-image: linear-gradient(#f33081, #b30a50, #0a0104);
+}
+
+.rogue:hover .rogue-text {
+  color: rgba(194, 235, 131, 0.8);
+}
+
+.rogue-text {
+  color: #47c674;
+}
+
+.firestar {
+  background-image: linear-gradient(#ea7a89, #DB233B, #410a12);
+}
+
+.firestar:hover {
+  background-image: linear-gradient(#7aeadb, #23dbc3, #0a413a);
+}
+
+.firestar:hover .firestar-text {
+  color: rgba(225, 199, 15, 0.8);
+}
+
+.firestar-text {
+  color: #dd5a2c;
+}
+
+.nightcrawler {
+  background-image: linear-gradient(#4094db, #1d6098, #000102);
+}
+
+.nightcrawler:hover {
+  background-image: linear-gradient(#db8740, #98551d, #020100);
+}
+
+.nightcrawler:hover .nightcrawler-text {
+  color: rgba(199, 179, 225, 0.8);
+}
+
+.nightcrawler-text {
+  color: #567cb0;
+}
+
+@media screen and (min-width: 800px) {
+  .nightcrawler img {
+    content: url("../../images/got-logo.png");
+  }
+}
+
+.psylocke {
+  background-image: linear-gradient(#2d9cba, #195768, black);
+}
+
+.psylocke:hover {
+  background-image: linear-gradient(#ba4b2d, #682a19, black);
+}
+
+.psylocke:hover .psylocke-text {
+  color: rgba(33, 84, 95, 0.8);
+}
+
+.psylocke-text {
+  color: #1c5665;
+}
+
+.thor {
+  background-image: linear-gradient(#a5416f, #5C243E, black);
+}
+
+.thor:hover {
+  background-image: linear-gradient(#41a577, #245c42, black);
+}
+
+.thor:hover .thor-text {
+  color: rgba(165, 97, 39, 0.8);
+}
+
+.thor-text {
+  color: #743836;
+}
+
+.captainamerica {
+  background-image: linear-gradient(#97b73e, #586B24, black);
+}
+
+.captainamerica:hover {
+  background-image: linear-gradient(#5e3eb7, #37246b, black);
+}
+
+.captainamerica:hover .captainamerica-text {
+  color: rgba(39, 78, 59, 0.8);
+}
+
+.captainamerica-text {
+  color: #48612c;
+}
+
+.hulk {
+  background-image: linear-gradient(#d7947e, #B75738, #2e160e);
+}
+
+.hulk:hover {
+  background-image: linear-gradient(#7ec1d7, #3898b7, #0e262e);
+}
+
+.hulk:hover .hulk-text {
+  color: rgba(68, 26, 87, 0.8);
+}
+
+.hulk-text {
+  color: #914342;
+}
+
+body {
+  margin: 0;
+}

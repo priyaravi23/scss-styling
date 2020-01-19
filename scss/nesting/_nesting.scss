@@ -1,0 +1,43 @@
+.got {
+  padding: 1rem 2rem;
+  transition: transform .8s ease-in-out;
+
+  &-container:hover & {
+    transform: rotate(180deg);
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition:         transform .8s ease-in-out;
+  }
+
+  &-container { background-color: #dbbebe; }
+
+  &::before {
+    display: block;
+    content: url('../../images/got.png');
+  }
+
+  img {
+    transition: transform .8s ease-in-out;
+    &:hover {
+      transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+    }
+  }
+
+  .description {
+    color: darkred;
+    text-align: center;
+    margin-top: 1rem;
+
+    .header { font-size: 2rem; }
+  }
+
+  .description-link {
+    text-decoration: none;
+
+    &::after {
+      content: url('../../images/got-logo.png');
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+}
