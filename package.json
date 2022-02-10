@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Transpile SCSS to CSS using node-sass",
   "devDependencies": {
-    "node-sass": "^4.13.1"
+    "node-sass": "^7.0.0"
   },
   "scripts": {
     "start": "node-sass -o css scss --output-style expanded"
